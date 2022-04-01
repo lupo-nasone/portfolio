@@ -1,0 +1,9 @@
+
+.ciao{
+    background-color: red;
+    color: white;
+    display: none;
+}
+.ciao:focus{
+    display: block !important;
+}

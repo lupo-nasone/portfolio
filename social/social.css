@@ -1,0 +1,62 @@
+
+
+.discord{
+    
+    margin-left: 30%;
+    float: left;
+    margin-top: 2%;
+    
+}
+.discord img:hover{
+    
+    width: 300px;
+}
+.discord img{
+    transition: 1s;
+    width: 100px;
+}
+
+.github{
+    margin-left: 5%;
+    float: left;
+    margin-top: 2%;
+}
+.github img{
+    transition: 1s;
+    width: 100px;
+}
+.github img:hover{
+    width: 300px;
+}
+
+.instagram{
+    margin-left: 5%;
+    float: left;
+    margin-top: 2%;
+}
+.instagram img{
+    transition: 1s;
+    width: 100px;
+}
+.instagram img:hover{
+    width: 300px;
+}
+
+.youtube{
+    margin-left: 5%;
+    float: left;
+    margin-top: 2%;
+}
+.youtube img{
+    transition: 1s;
+    width: 100px;
+}
+.youtube img:hover{
+    width: 300px;
+}
+
+.linea{
+    margin-top: 40%;
+    margin-left: 20%;
+    margin-right: 20%;
+}
