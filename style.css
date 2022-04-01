@@ -1,0 +1,43 @@
+
+body{
+    background-color: rgb(37, 37, 37);
+}
+.header{
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+    border-radius: 10px;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+.links{
+    display: flex;
+    margin-left: 50px;
+}
+.links a{
+    transition:transform .5s;
+    color: hsl(139, 47%, 44%);
+    margin: 25px;
+    text-decoration: none;
+    
+}
+.links a:hover{
+    
+    color: white;
+    transform: scale(2);
+}
+.logo{
+    transition:transform 2s;
+    transform-origin: 50% 50%;
+    display: flex;
+    width: 50px;
+    height: 50px;
+    justify-content: center;
+    margin-left: 10px;
+}
+.logo:hover{
+    transform: rotate(720deg);
+}
