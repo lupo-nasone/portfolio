@@ -171,10 +171,7 @@ body{
 
 
 @media (max-width: 1020px) {
-    .sociale{
-        float: left;
-    }
     .descrizione{
-        display: none;
+        width: 80%;
     }
 }
