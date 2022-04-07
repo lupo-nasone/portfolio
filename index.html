@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.2/gsap.min.js" integrity="sha512-kVlGhj2qFy+KBCFuvjBJTGUMxbdqJKs4yK2jh0e0VPhWUPiPC87bzm4THmaaIee3Oj7j6sDpTTgm2EPPiESqBg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="script.js"></script>
+    
+    <link rel="stylesheet" href="./style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lupo</title>
+</head>
+
+<body style="overflow: hidden;">
+    <div class="header">
+        <a href="#"><img src="../images/logovero.png" class="logo"></a>
+        <div class="links">
+            <a href="pages/progetti.html" class="scelta">Progetti</a>
+        </div>
+    </div>
+
+    <section>
+        <ul class="shiny">
+            <li><a href="https://discord.com/invite/39SxA7dQV8"><img src="images/discord.png"></a></li>
+            <li><a href="https://github.com/lupo-nasone"><img src="images/github.png"></a></li>
+            <li><a href="https://www.instagram.com/matte_fagi_05/"><img src="images/instagram.png"></a></li>
+            <li><a href="https://www.youtube.com/channel/UCqsGuYG-6bKfNj7aCnpe8jw"><img src="images/youtube.png"></a></li>
+        </ul>
+    </section>
+    <div class="container">
+            <img src="background/Layer_0.png" class="object" data-value="1" alt="">
+            <img src="background/Layer_1.png" class="object" data-value="2" alt="">
+            <img src="background/Layer_2.png" class="object" data-value="3" alt="">
+            <img src="background/Layer_3.png" class="object" data-value="4" alt="">
+            <img src="images/apparizione.jpg" class="object apparizione" data-value="4" alt="" style="display: none;">
+            <img src="background/Layer_4.png" class="object" data-value="10" alt="">
+    </div>
+
+    <script type="text/javascript">
+        document.addEventListener("mousemove", parallax);
+        function parallax(e) {
+            document.querySelectorAll(".object").forEach(function (move) {
+                var moving_value = move.getAttribute("data-value");
+                var x = e.clientX * moving_value / 250;
+                var y = e.clientY * moving_value / 250;
+
+                move.style.transform = "translateX(" + x + "px) translateY(" + y + "px)";
+            })
+        }
+    </script>
+
+    
+
+
+
+
+
+
+
+</body>
+<script src="script.js"></script>
+
+</html>
