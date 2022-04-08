@@ -1,5 +1,21 @@
-document.onkeyup=function(e){if(e.ctrlKey&&e.which==88){window.location.href="pages/sole.html";}};
+let ctrlPressed = false;
 
-gsap.to(".apparizione", {duration: 1, x:"500px"});
+document.addEventListener("keydown", (e)=>{
+    switch (e.key) {
+        case "Control":
+            ctrlPressed = true; 
+            break;
+        case "x":
+            if(ctrlPressed){
+                 window.location.href="./pages/ciao.html";
+            }
+    }
+})
 
-document.addEventListener
+document.addEventListener("keyup", (e)=>{
+    switch (e.key) {
+        case "Control":
+            ctrlPressed = false; 
+            break;
+    }
+})
