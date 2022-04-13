@@ -1,0 +1,59 @@
+
+
+
+#cpp{
+    font-size: 80%;
+    float: left;
+    width: 20%;
+}
+#cpp img{
+    width: 100%;
+}
+
+.programma1{
+    font-size: 100%;
+    text-align: center;
+    color: white;
+    float: right;
+    width: 60%;
+}
+.progetti div{
+    margin: 3%;
+}
+
+.riga{
+    width: 100%;
+    height: 100px;
+    background-color: white;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+@media screen and (max-width: 1000px){
+    .progetti{
+        width: 100%;
+        margin-left: 0;
+    }
+    .progetti div{
+        margin: 3%;
+    }
+    #sx{
+        float: none;
+        width: 100%;
+    }
+    #dx{
+        float: none;
+        width: 100%;
+    }
+    .programma1{
+        float: none;
+        width: 100%;
+    }
+    .riga{
+        width: 100%;
+    }
+    #cpp img{
+        display: none;
+    }
+}
