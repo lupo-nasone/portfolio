@@ -17,16 +17,44 @@
     float: right;
     width: 60%;
 }
-.progetti div{
-    margin: 3%;
-}
 
 .riga{
     width: 100%;
     height: 100px;
     background-color: white;
-    margin-top: 10px;
-    margin-bottom: 10px;
+    
+}
+
+.lavoro{
+    width: 80%;
+    height: 300px;
+    background-color: white;
+}
+.cpp{
+    height: 90%;
+    margin: 1%;
+    float: right;
+    
+}
+
+.scrol{
+    background-color: rgb(59, 59, 59);
+    color: white;
+    height: 300px;
+    width: 500px;
+    float: left;
+    overflow: hidden;
+    overflow-y: scroll;
+    text-align: center;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.scrol p{
+    color: red;
+}
+
+.include{
+    color: rgb(0, 223, 0);
 }
 
 

@@ -13,14 +13,17 @@
 </head>
 
 <body style="overflow: hidden;" onselectstart="return false" ondragstart="return false">
+
+    <video autoplay muted loop id="bgvideo">
+        <source src="./video/bgsito.mp4" type="video/mp4">
+    </video>
+        
+
     <div class="header">
         <a href="#"><img src="images/logovero.png" class="logo"></a>
         <div class="links">
             <a href="pages/progetti.html" class="scelta">Progetti</a>
         </div>
-        <button class="btn" onclick="darker()">
-            <span><i class="fa fa-moon-o" aria-hidden="true"></i></span>
-        </button>
     </div>
     
 
@@ -32,25 +35,12 @@
             <li><a href="https://www.youtube.com/channel/UCqsGuYG-6bKfNj7aCnpe8jw"><img src="images/youtube.png"></a></li>
         </ul>
     </section>
-    <div class="container">
-            <img src="background/layer_1.png" class="object" data-value="2" alt="" id="prima">
-            <img src="background/layer_2.png" class="object" data-value="3" alt="" id="seconda">
-            <img src="background/layer_3.png" class="object" data-value="4" alt="" id="terza">
-            <img src="background/layer_4.png" class="object" data-value="10" alt="" id="quarta">
-    </div>
+    
 
-    <script type="text/javascript">
-        document.addEventListener("mousemove", parallax);
-        function parallax(e) {
-            document.querySelectorAll(".object").forEach(function (move) {
-                var moving_value = move.getAttribute("data-value");
-                var x = e.clientX * moving_value / 250;
-                var y = e.clientY * moving_value / 250;
+    
 
-                move.style.transform = "translateX(" + x + "px) translateY(" + y + "px)";
-            })
-        }
-    </script>
+
+
 
     <script src="script.js"></script>
 </body>
