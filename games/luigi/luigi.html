@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="luigi.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Luigi</title>
+    <script src="luigi.js"></script>
+</head>
+<body>
+    <button onclick="apparire()" class="apparizione">></button>
+    <div class="info">
+        <img src="stella.png" class="imginfo">
+        <img src="stella.png" class="imginfo">
+        <img src="stella.png" class="imginfo">
+        <img src="stella.png" class="imginfo">
+        <img src="stella.png" class="imginfo">
+        <br>
+        <img src="stella.png" class="imginfo">
+        <img src="stella.png" class="imginfo">
+        <img src="stella.png" class="imginfo">
+        <img src="stella.png" class="imginfo">
+        <br>
+        <img src="stella.png" class="imginfo">
+        <img src="stella.png" class="imginfo">
+        <img src="stella.png" class="imginfo">
+        <img src="fungo.png" class="imginfo">
+        <img src="fungo.png" class="imginfo">
+        <br>
+        <img src="stella.png" class="imginfo">
+        <img src="stella.png" class="imginfo">
+        <img src="stella.png" class="imginfo">
+        <br>
+        <img src="stella.png" class="imginfo">
+        <img src="stella.png" class="imginfo">
+        <img src="fungo.png" class="imginfo">
+        <img src="fungo.png" class="imginfo">
+        <br>
+        <img src="stella.png" class="imginfo">
+        <img src="stella.png" class="imginfo">
+    </div>
+
+    <p id="denaro">50</p>
+<div class="game">
+    <div class="nemico">
+
+    <button class="avversario"><img src="" id="carta1sua" class="imgcarte"></button>
+    <button class="avversario"><img src="" id="carta2sua" class="imgcarte"></button>
+    <button class="avversario"><img src="" id="carta3sua" class="imgcarte"></button>
+    <button class="avversario"><img src="" id="carta4sua" class="imgcarte"></button>
+    <button class="avversario"><img src="" id="carta5sua" class="imgcarte"></button>
+
+
+    </div>
+    <div class="amico">
+        
+    <button class="mie c1" onclick="selezione1()"><img src="" id="carta1mia" class="imgcarte"></button>
+    <button class="mie c2" onclick="selezione2()"><img src="" id="carta2mia" class="imgcarte"></p></button>
+    <button class="mie c3" onclick="selezione3()"><img src="" id="carta3mia" class="imgcarte"></button>
+    <button class="mie c4" onclick="selezione4()"><img src="" id="carta4mia" class="imgcarte"></button>
+    <button class="mie c5" onclick="selezione5()"><img src="" id="carta5mia" class="imgcarte"></button>
+
+    </div>
+    
+
+
+    
+</div>
+<br><br><br><br>
+    
+    
+    <center>
+        <div id="descrizione"></div>
+        <button onclick="start()" id="start"><b>START</b></button>
+
+        <input id="scommessa" type="number" placeholder="Numero di soldi da scommettere">
+        <button onclick="confscommessa()" id="confscommessa">Conferma scommessa</button>
+        <p id="prova"></p>
+
+        <button id="confscambiocarte" onclick="confscambiocarte()">SCAMBIA CARTE</button>
+        
+        <button id="restart" onclick="restart()">RESTART</button>
+    </center>
+    
+
+    <input type="checkbox" id="carta1">
+    <input type="checkbox" id="carta2">
+    <input type="checkbox" id="carta3">
+    <input type="checkbox" id="carta4">
+    <input type="checkbox" id="carta5">
+    
+
+    
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/gsap.min.js" integrity="sha512-VEBjfxWUOyzl0bAwh4gdLEaQyDYPvLrZql3pw1ifgb6fhEvZl9iDDehwHZ+dsMzA0Jfww8Xt7COSZuJ/slxc4Q==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</body>
+</html>

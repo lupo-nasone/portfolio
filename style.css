@@ -1,33 +1,15 @@
 *{
-    box-sizing: border-box;
+    overflow-y: none !important;
+    overflow-x: none !important;
 }
 
-
 body{
-    scroll-behavior: smooth;
     margin: 0;
     padding: 0;
 }
 
-element::-webkit-scrollbar {
-    display: none;
-}
-
-
-::-webkit-scrollbar {
-    width: 5px;
-  }
-  
-  ::-webkit-scrollbar-thumb {
-    background: greenyellow; 
-  }
-  
-  ::-webkit-scrollbar-thumb:hover {
-    background: green; 
-  }
-
-  
 .header{
+    
     position: relative;
     width: 80%;
     align-items: center;
@@ -36,6 +18,7 @@ element::-webkit-scrollbar {
     background-color: rgb(29, 29, 29);
     border-radius: 50px;
     margin: auto auto;
+    margin-top: 20px; 
     box-shadow: -4px 4px 10px rgb(17, 17, 17);
     z-index: 5;
 }
@@ -72,11 +55,17 @@ element::-webkit-scrollbar {
     transform: rotate(720deg);
 }
 
-.linea{
-    width: 80%;
-    margin-left: 10vw;
-    margin-right: 10vw;
+#bgvideo{
+    object-fit: cover;
+    height: 100%;
+    width: 100vw;
+    left: 50%;
+    transform: translate(-50%);
+    position: absolute;
+    top: 0;
+    border-style: none;
 }
+
 
 .shiny{
     margin-top: 40px;
@@ -85,6 +74,7 @@ element::-webkit-scrollbar {
     align-items: center;
     justify-content: center;
     z-index: 2;
+    margin-left: 0 !important;
 }
 .shiny li{
     position: relative;
@@ -132,74 +122,15 @@ element::-webkit-scrollbar {
     transform: skewX(45deg) translateX(-150px);
 }
 
-.btn{
-    transition: .5s;
-    position: relative;
-    height: 50px;
-    width: 50px;
-    border-radius: 50%;
-    outline: none;
-    border: 2px #090909 solid;
-    background: linear-gradient(145deg, #171717, #444245);
-    box-shadow: inset 2px 2px 0px #7d7c7e,
-    inset -2px -2px 0px #1c1c1c;
-    color: white;
-}
-.btn:hover{
-    color: green;
-}
-.btn span{
-    font-size: 2.5em;
-}
-.btn::before{
-    position: absolute;
-    content: '';
-    height: 1.25em;
-    width: 1.25em;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    background: linear-gradient(145deg, #262626, #606060);
-    box-shadow: 11px 11px 100px #141414, -11px -11px 100px #525252;
-    z-index: -1;
-}
-.btn:active{
-    box-shadow: inset 2px 2px 0px #1c1c1c, inset -2px -2px 0px #7d7c7e;
-}
+@media screen and (max-width: 600px){
+    .header{
+        width: 90%;
+    }
 
-#bgvideo{
-    width: 1980px;
-    left: 50%;
-    transform: translate(-50%);
-    position: absolute;
-    top: 0;
-    border-style: none;
+    .shiny li a{
+        width: 70px;
+        height: 70px;
+    }
+
 }
-
-
-
-@media screen and (max-width: 1000px){
     
-    .links{
-        margin-left: 0;
-    }
-    .logo{
-        width: 40px;
-        height: 40px;
-    }
-    .linea{
-        width: 100%;
-        margin-left: 0;
-        margin-right: 0;
-    }
-   
-}
-
-
-
-
-
-
-
-
-

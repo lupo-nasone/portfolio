@@ -1,0 +1,164 @@
+
+*, *::after, *::before {
+	-webkit-user-drag: none;
+	-webkit-app-region: no-drag;
+	cursor: default;
+}
+
+body{
+    background-image: url(sfondo.jpg);
+    padding: 0;
+    margin: 0;
+}
+p{
+    color: white;
+}
+
+.game{
+    margin-left: auto;
+    margin-right: auto;
+    width: 1400px;
+    height: 600px;
+}
+
+.avversario{
+    border-radius: 20px;
+    margin: 4%;
+    width: 150px;
+    height: 200px;
+    background-color: #f00;
+    border: black 3px solid;
+    float: left;
+}
+
+.mie{
+    border-radius: 20px;
+    margin: 4%;
+    width: 150px;
+    height: 200px;
+    background-color: #0f0;
+    border: black 3px solid;
+    float: left;
+}
+.nemico{
+    -webkit-backdrop-filter: blur(10px);backdrop-filter: blur(10px);
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border: green 3px solid;
+    height: 300px;
+    align-items: center;
+    box-shadow: black -10px 0px 10px;
+}
+.amico{
+    -webkit-backdrop-filter: blur(10px);backdrop-filter: blur(10px);
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border: red 3px solid;
+    height: 300px;
+    box-shadow: black -10px 10px 10px;
+}
+
+
+#scommessa{
+    display: none;
+}
+#carta1{
+    display: none;
+}
+#carta2{
+    display: none;
+}
+#carta3{
+    display: none;
+}
+#carta4{
+    display: none;
+}
+#carta5{
+    display: none;
+}
+#confscommessa{
+    display: none;
+}
+#confscambiocarte{
+    display: none;
+}
+#restart{
+    display: none;
+}
+
+.imgcarte{
+    width: 100%;
+}
+.imginfo{
+    width: 40px;
+}
+.info{
+    transform: translate(-100%, 0);
+    left: 0;
+    -webkit-backdrop-filter: blur(10px);backdrop-filter: blur(10px);
+    border-radius: 20px;
+    position: absolute;
+}
+
+.apparizione{
+    background-color: rgba(11,121,244,255);
+    color: rgb(255, 0, 0);
+    border: black 1px solid;
+    border-radius: 100px;
+}
+
+#descrizione{
+    border-radius: 20px;
+    width: 500px;
+    height: 150px;
+    background-color: rgb(19, 19, 19);
+}
+#start{
+    color: #0f0;
+    border: none;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    width: 100px;
+    height: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(19, 19, 19);
+}
+#scommessa{
+    text-align: center;
+    width: 300px;
+    color: #0f0;
+    background-color: rgb(19, 19, 19);
+    border: none;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+#confscommessa{
+    background-color: rgb(19, 19, 19);
+    border: none;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    height: 20px;
+    color: green;
+}
+
+#confscambiocarte{
+    color: #0f0;
+    border: none;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    width: 100px;
+    height: 40px;
+    background-color: rgb(19, 19, 19);
+}
+
+#restart{
+    color: #0f0;
+    border: none;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    width: 100px;
+    height: 40px;
+    background-color: rgb(19, 19, 19);
+}
