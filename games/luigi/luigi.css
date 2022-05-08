@@ -162,3 +162,150 @@ p{
     height: 40px;
     background-color: rgb(19, 19, 19);
 }
+
+@media screen and (max-width: 1440px){
+    .game{
+        width: 1000px;
+    }
+    .mie{
+        width: 130px;
+        height: 170px;
+        margin-left: 32px;
+        margin-right: 32px;
+
+    }
+    .avversario{
+        width: 130px;
+        height: 170px;
+        margin-left: 32px;
+        margin-right: 32px;
+        
+    }
+}
+
+@media screen and (max-width: 1040px){
+    .game{
+        width: 800px;
+        height: 500px;
+    }
+    .mie{
+        border: black 2px solid;
+        width: 100px;
+        height: 140px;
+        margin-left: 29px;
+        margin-right: 29px;
+    }
+    .avversario{
+        border: black 2px solid;
+        width: 100px;
+        height: 130px;
+        margin-left: 29px;
+        margin-right: 29px;
+    }
+    .nemico{
+        height: 250px;
+    }
+    .amico{
+        height: 250px;
+    }
+}
+
+@media screen and (max-width: 820px){
+    .game{
+        width: 600px;
+        height: 400px;
+    }
+    .mie{
+        border: black 2px solid;
+        width: 80px;
+        height: 100px;
+        margin-left: 19px;
+        margin-right: 19px;
+    }
+    .avversario{
+        border: black 2px solid;
+        width: 80px;
+        height: 100px;
+        margin-left: 19px;
+        margin-right: 19px;
+    }
+    .nemico{
+        height: 150px;
+    }
+    .amico{
+        height: 150px;
+    }
+}
+
+@media screen and (max-width: 620px){
+    .game{
+        width: 400px;
+        height: 200px;
+    }
+    .mie{
+        border: black 1.5px solid;
+        width: 60px;
+        height: 70px;
+        margin-left: 9px;
+        margin-right: 9px;
+    }
+    .avversario{
+        border: black 1.5px solid;
+        width: 60px;
+        height: 70px;
+        margin-left: 9px;
+        margin-right: 9px;
+    }
+    .nemico{
+        height: 100px;
+    }
+    .amico{
+        height: 100px;
+    }
+    #descrizione{
+        width: 300px;
+    }
+}
+
+@media screen and (max-width: 400px){
+    .game{
+        width: 300px;
+        height: 100px;
+    }
+    .mie{
+        border: black 1.5px solid;
+        width: 40px;
+        height: 50px;
+        border-radius: 5px;
+    }
+    .avversario{
+        border: black 1.5px solid;
+        width: 40px;
+        height: 50px;
+        border-radius: 5px;
+    }
+    .nemico{
+        height: 80px;
+    }
+    .amico{
+        height: 80px;
+    }
+    #descrizione{
+        margin-top: 10px;
+    }
+
+    
+}
+
+@media screen and (max-width: 300px){
+    .game{
+        display: none;
+    }
+    #descrizione{
+        display: none;
+    }
+    #sparire{
+        display: none;
+    }
+    
+}

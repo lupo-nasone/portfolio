@@ -1,0 +1,219 @@
+.body{
+    overflow-y: hidden!important;
+}
+
+.progetti{
+    margin-left: auto;
+    margin-right: auto;
+    width: 1000px;
+    height: 700px;
+    margin-top: 40px;
+    border-radius: 50px;
+    overflow: auto;
+    backdrop-filter: blur(10px);
+    border: 3px solid rgb(29, 29, 29);
+}
+
+.progetto{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    background-color: rgb(29, 29, 29);
+    width: 800px;
+    height: 300px;
+    border-radius: 10px;
+}
+::-webkit-scrollbar {
+    display: none;
+}
+
+.progettoluigi img{
+    width: 270px;
+    height: 150px;
+    margin-top: 30px;
+    margin-left: 50px;
+}
+
+.hiddencode{
+    color: greenyellow;
+    float: right;
+    background-image: url("./projectsimg/cpp.png");
+    background-size: cover;
+    width: 370px;
+    height: 170px;
+    margin-top: 30px;
+    margin-right: 50px;
+    border-radius: 10px;
+}
+
+#hiddenluigi{
+    border: none;
+    background-color: rgb(24, 24, 24);
+    color: rgb(192, 0, 0);
+    border-radius: 50px;
+    width: 150px;
+    height: 50px;
+    font-size: 15px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    margin-left: 110px;
+    cursor: pointer;
+}
+#hiddenluigi:hover{
+    
+    background-color: rgb(192, 0, 0);
+    color: rgb(24, 24, 24);
+}
+
+.deluigi{
+    float: left;
+    width: 270px;
+    height: 70px;
+    background-color: rgb(15, 15, 15);
+    margin-left: 50px;
+    margin-top: 20px;
+    border-radius: 10px;
+    padding: 3px;
+}
+
+.deluigi p{
+    color: white;
+    padding: 2px;
+}
+
+.download{
+    width: 100px;
+    float: right;
+    margin-right: 130px;
+    margin-top: 30px;
+    height: 50px;
+    width: 200px;
+    background-color: rgb(0, 192, 0);
+    border-radius: 30px;
+    
+}
+.download a{
+    text-decoration: none;
+    color: white;
+}
+.diocane{
+    margin-top: 11px;
+}
+
+@media screen and (max-width: 1100px){
+    
+    .progetti{
+        width: 750px;
+    }
+    .progetto{
+        width: 650px;
+    }
+    #hiddenluigi{
+        margin-left: 50px;
+    }
+    .deluigi{
+        width: 270px;
+    }
+    .hiddencode{
+        width: 250px;
+    }
+    .download{
+        margin-right: 100px;
+        width: 150px;
+    
+    }
+    .diocane{
+        margin-top: 11px;
+    }
+
+    
+}
+
+@media screen and (max-width: 800px){
+    #introluigi{
+        display: none;
+    }
+    .progetti{
+        width: 500px;
+    }
+    .progetto{
+        width: 400px;
+        height: 400px;
+    }
+    #hiddenluigi{
+        margin-left: 95px;
+    }
+    .deluigi{
+        width: 330px;
+        height: 60px;
+        margin-left: 35px;
+    }
+    .hiddencode{
+        width: 330px;
+        float: left;
+        margin-left: 35px;
+        margin-right: 35px;
+    }
+    .download{
+        float: left;
+        margin-left: 125px;
+    }
+    .diocane{
+        margin-top: 11px;
+    }
+
+    
+}
+
+@media screen and (max-width: 550px){
+    .progetti{
+        width: 300px;
+    }
+    .progetto{
+        width: 250px;
+        height: 300px;
+    }
+    #hiddenluigi{
+        margin-left: 95px;
+    }
+    .deluigi{
+        width: 210px;
+        height: 70px;
+        margin-left: 20px;
+    }
+    .hiddencode{
+        width: 210px;
+        height: 100px;
+        float: left;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    #hiddenluigi{
+        margin-left: 55px;
+        margin-top: 36px;
+        width: 100px;
+        height: 30px;
+        font-size: 13px;
+    }
+    .download{
+        float: left;
+        height: 30px;
+        width: 100px;
+        margin-left: 75px;
+    }
+    .diocane{
+        margin-top: 5px;
+        font-size: 12px;
+    }
+
+    
+}
+@media screen and (max-width: 365px){
+    body{
+        display: none;
+    }
+}
+
+
+
