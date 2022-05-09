@@ -168,29 +168,26 @@
 
 @media screen and (max-width: 550px){
     .progetti{
-        width: 300px;
+        width: 400px;
     }
     .progetto{
-        width: 250px;
+        width: 300px;
         height: 300px;
     }
-    #hiddenluigi{
-        margin-left: 95px;
-    }
     .deluigi{
-        width: 210px;
+        width: 250px;
         height: 70px;
         margin-left: 20px;
     }
     .hiddencode{
-        width: 210px;
+        width: 250px;
         height: 100px;
         float: left;
-        margin-left: 20px;
-        margin-right: 20px;
+        margin-left: 25px;
+        margin-right: 25px;
     }
     #hiddenluigi{
-        margin-left: 55px;
+        margin-left: 75px;
         margin-top: 36px;
         width: 100px;
         height: 30px;
@@ -200,7 +197,7 @@
         float: left;
         height: 30px;
         width: 100px;
-        margin-left: 75px;
+        margin-left: 100px;
     }
     .diocane{
         margin-top: 5px;

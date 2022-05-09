@@ -24,7 +24,7 @@ body{
 }
 .links{
     display: flex;
-    margin-left: 50px;
+    
 }
 .links a{
     
@@ -130,6 +130,11 @@ body{
     .shiny li a{
         width: 70px;
         height: 70px;
+    }
+    .header a{
+        font-size: 16px;
+        margin-left: 10px;
+        margin-right: 10px;
     }
 
 }
